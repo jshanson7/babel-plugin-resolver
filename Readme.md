@@ -25,7 +25,6 @@ rm -rf ~/.babel.json
   "presets": ["es2015"],
   "plugins": [["resolver", { "resolveDirs": ["src"] }]]
 }
-
 ```
 
 Given the directory structure:
@@ -63,7 +62,6 @@ This example uses [Babel 6](http://babeljs.io/).
   "presets": ["es2015"],
   "plugins": [["resolver", { "resolveDirs": ["src", "src/lib"] }]]
 }
-
 ```
 
 Given the directory structure:
