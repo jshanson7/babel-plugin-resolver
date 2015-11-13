@@ -1,4 +1,4 @@
 {
   "presets": ["es2015"],
-  "plugins": [["babel-plugin-resolver", { "options": { "hello": "world" } }]]
+  "plugins": [["resolver", { "resolveDirs": ["example-app", "example-app/lib"] }]]
 }

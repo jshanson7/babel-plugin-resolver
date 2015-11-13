@@ -1,5 +1,5 @@
 describe('babelResolver()', function () {
   it('works', function () {
-    require('../example-app');
+    require('../example-app/app');
   });
 });
