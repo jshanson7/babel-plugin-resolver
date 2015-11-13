@@ -30,12 +30,12 @@ rm -rf ~/.babel.json
 Given the directory structure:
 
 ```
-app/
+/app
   .babelrc
-  src/
-    models/
+  /src
+    /models
       User.js
-    controllers/
+    /controllers
       User.js
 ```
 
@@ -67,14 +67,14 @@ This example uses [Babel 6](http://babeljs.io/).
 Given the directory structure:
 
 ```
-app/
+/app
   .babelrc
-  src/
-    models/
+  /src
+    /models
       User.js
-    controllers/
+    /controllers
       User.js
-    lib/
+    /lib
       utils.js
 ```
 
