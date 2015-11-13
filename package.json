@@ -1,0 +1,52 @@
+{
+  "name": "babel-plugin-resolver",
+  "version": "0.0.1",
+  "description": "Resolve modules from any directory.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm run clear-cache && npm run lint && node_modules/.bin/mocha test/**/*.test.js",
+    "lint": "./node_modules/.bin/eslint lib test",
+    "cover": "npm run istanbul && npm run coveralls",
+    "istanbul": "node node_modules/.bin/istanbul cover node_modules/.bin/_mocha --report lcovonly",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "clear-cache": "rm -f ~/.babel.json",
+    "link-self": "rm -rf node_modules/babel-plugin-resolver && ln -s . node_modules/babel-plugin-resolver"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jshanson7/babel-plugin-resolver.git"
+  },
+  "keywords": [
+    "babel",
+    "resolve",
+    "local",
+    "module",
+    "source",
+    "resolveModuleSource",
+    "NODE_PATH",
+    "import"
+  ],
+  "author": "Jeff Hanson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jshanson7/babel-plugin-resolver/issues"
+  },
+  "homepage": "https://github.com/jshanson7/babel-plugin-resolver#readme",
+  "dependencies": {
+    "babel-resolver": "^0.0.14"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.1.18",
+    "babel-core": "^6.1.18",
+    "babel-eslint": "^4.1.5",
+    "babel-plugin-resolver": "file:.",
+    "babel-preset-es2015": "^6.1.18",
+    "coveralls": "^2.11.4",
+    "eslint": "^1.9.0",
+    "eslint-config-standard": "^4.4.0",
+    "eslint-plugin-babel": "^2.1.1",
+    "eslint-plugin-standard": "^1.3.1",
+    "istanbul": "^0.4.0",
+    "mocha": "^2.3.3"
+  }
+}
