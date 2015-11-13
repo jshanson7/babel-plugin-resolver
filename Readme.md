@@ -1,4 +1,4 @@
-# Babel Resolver Plugin [![NPM version][npm-image]][npm-url] [![Build status][travis-image]][travis-url] [![Coverage status][coveralls-image]][coveralls-url]
+# Babel Resolver Plugin [![NPM version][npm-image]][npm-url] [![Build status][travis-image]][travis-url]
 
 Resolve modules from any directory.
 
@@ -18,7 +18,7 @@ npm i babel-plugin-resolver --save
 rm -rf ~/.babel.json
 ```
 
-*In app/.babelrc:*
+*In .babelrc:*
 
 ```json
 {
@@ -56,7 +56,7 @@ This example uses [Babel 6](http://babeljs.io/).
 
 ## Resolving Multiple Directories
 
-*In app/.babelrc:*
+*In .babelrc:*
 
 ```json
 {
