@@ -96,9 +96,7 @@ rm -rf ~/.babel.json
 
 ## Why not just set NODE_PATH?
 
-While setting `NODE_PATH=app` is a perfectly valid solution, `babel-plugin-resolver` is for those who:
-- find environment variables annoying
-- want to resolve modules from more than one directory
+While setting `NODE_PATH=app` is a perfectly valid solution, `babel-resolver` is more explicit and lets you avoid mucking around with environment variables.
 
 ## License
 
