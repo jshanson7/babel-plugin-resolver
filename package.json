@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-resolver",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Resolve modules from any directory.",
   "main": "lib/index.js",
   "scripts": {
@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/jshanson7/babel-plugin-resolver#readme",
   "dependencies": {
-    "babel-resolver": "^0.0.14",
+    "babel-resolver": "^0.0.16",
     "lodash": "^3.10.1"
   },
   "devDependencies": {
