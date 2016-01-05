@@ -2,7 +2,7 @@
   "name": "babel-plugin-resolver",
   "version": "0.0.4",
   "description": "Resolve modules from any directory.",
-  "main": "lib/index.js",
+  "main": "lib/ResolverPlugin.js",
   "scripts": {
     "test": "npm run clear-cache && npm run lint && node_modules/.bin/mocha test/**/*.test.js",
     "lint": "./node_modules/.bin/eslint lib test",
