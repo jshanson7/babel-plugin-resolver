@@ -1,4 +1,14 @@
 
+v0.0.5 / 2016-01-05
+==================
+
+  * v0.0.5
+  * rename main to ResolverPlugin
+  * Merge pull request #1 from iuriikozuliak/patch-1
+  * Update getPluginOptsFromBabelOpts.js
+  * tweak copy
+  * v0.0.4
+
 v0.0.4 / 2015-11-21
 ===================
 
