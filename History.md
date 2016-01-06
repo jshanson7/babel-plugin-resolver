@@ -1,4 +1,12 @@
 
+v0.0.7 / 2016-01-05
+===================
+
+  * v0.0.7
+  * infer app root from babelOpts.filename
+  * bump version
+  * changelog
+
 v0.0.6 / 2016-01-05
 ===================
 
