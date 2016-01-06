@@ -1,7 +1,13 @@
 
-v0.0.5 / 2016-01-05
-==================
+v0.0.6 / 2016-01-05
+===================
 
+  * update babel-resolver dep
+
+v0.0.5 / 2016-01-05
+===================
+
+  * changelog
   * v0.0.5
   * rename main to ResolverPlugin
   * Merge pull request #1 from iuriikozuliak/patch-1
