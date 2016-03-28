@@ -34,7 +34,7 @@
   "homepage": "https://github.com/jshanson7/babel-plugin-resolver#readme",
   "dependencies": {
     "babel-resolver": "^0.0.18",
-    "lodash": "^3.10.1"
+    "lodash": "^4.6.0"
   },
   "devDependencies": {
     "babel-cli": "^6.1.18",
