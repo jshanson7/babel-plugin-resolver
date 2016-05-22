@@ -91,7 +91,7 @@ import utils from 'utils';
 
 ```
 npm i babel-plugin-resolver --save
-rm -rf ~/.babel.json
+rm -f ~/.babel.json
 ```
 
 ## Why not just set NODE_PATH?
