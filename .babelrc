@@ -1,4 +1,4 @@
 {
   "presets": ["es2015"],
-  "plugins": [["resolver", { "resolveDirs": ["example-app", "example-app/lib"] }]]
+  "plugins": [["resolver", {"resolveDirs": ["example-app", "example-app/lib"]}]]
 }

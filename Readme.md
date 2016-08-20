@@ -23,7 +23,7 @@ rm -rf ~/.babel.json
 ```json
 {
   "presets": ["es2015"],
-  "plugins": [["resolver", { "resolveDirs": ["src"] }]]
+  "plugins": [["resolver", {"resolveDirs": ["src"]}]]
 }
 ```
 
@@ -60,7 +60,7 @@ This example uses [Babel 6](http://babeljs.io/).
 ```json
 {
   "presets": ["es2015"],
-  "plugins": [["resolver", { "resolveDirs": ["src", "src/lib"] }]]
+  "plugins": [["resolver", {"resolveDirs": ["src", "src/lib"]}]]
 }
 ```
 
